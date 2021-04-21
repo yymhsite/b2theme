@@ -159,7 +159,6 @@ var postType5 = new Vue({
                         video: {
                             url: this.url,
                             pic: this.videos[0].poster,
-                            type:'auto',
                             type: 'customHls',
                             customType: {
                                 customHls: function (video, player) {
